@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fdc9d1;
+    font-size: 12px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#mainDiv {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#elapseClock {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#words {
+    font-family: "sans-serif";
+    width: 100%;
+    font-size: 24px;
+    color: #666;
+    margin: 20px;
+}
+
+#code {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: start;
+    color: #333;
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+    font-size: 14px;
+}
+
+#copyright {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    color: #666;
+}
+
+#errorMsg {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+/* Responsive styling */
+@media (max-width: 480px) {
+    #mainDiv {
+        padding: 15px;
+    }
+
+    #words {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    #elapseClock {
+        font-size: 16px;
+    }
+
+    #code {
+        font-size: 12px;
+    }
+}
