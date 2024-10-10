@@ -12,7 +12,7 @@ body {
 
 #mainDiv {
     width: 100%;
-    margin: 10px;
+    margin: 30px 10px 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@ body {
 
 .content {
     width: 100%;
-    margin: 10px;
+    margin: 20px 10px 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,6 +55,7 @@ body {
     height: auto;
     margin-top: 20px;
     text-align: start;
+    padding-top: 20px;
     color: #333;
     font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
     font-size: 14px;
